@@ -1,5 +1,4 @@
 import React from 'react'
-import send from '../../send.png'
 import { sendNewMessage} from '../../action/conversation'
 import axios from 'axios'
 import SendIcon from '@material-ui/icons/Send';

@@ -107,7 +107,7 @@ h2 {
 
 .messages-box {
     flex-grow: 20;
-    background-image: url(back.png);
+    /*background-image: url(back.png);*/
     background-repeat: no-repeat;
     background-size: 1000px 500px;
 }
