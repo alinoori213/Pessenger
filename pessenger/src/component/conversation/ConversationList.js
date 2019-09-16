@@ -4,8 +4,7 @@ import { connect } from 'react-redux'
 import { createNewConversation } from '../../action/conversation'
 import { saveConversationList } from '../../action/conversation'
 import axios from 'axios'
-import AddCircleIcon from '@material-ui/icons/AddCircle';
-import SearchIcon from '@material-ui/icons/Search';
+
 
 
 

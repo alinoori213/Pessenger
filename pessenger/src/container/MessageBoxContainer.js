@@ -1,4 +1,4 @@
-import MessageBox from '../component/conversation/MessagesBox'
+import MessagesBox from '../component/conversation/MessagesBox'
 import { connect } from 'react-redux'
 
 const mapDispatchToProps = dispatch => ({
@@ -19,6 +19,6 @@ const mapStateToProps = state => {
 const MessageBoxContainer = connect(
     mapStateToProps,
     mapDispatchToProps
-)(MessageBox)
+)(MessagesBox)
 
 export default MessageBoxContainer

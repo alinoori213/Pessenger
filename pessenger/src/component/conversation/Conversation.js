@@ -1,6 +1,4 @@
 import React from 'react'
-import { getUserName } from '../../action/conversation'
-import { userInfo } from 'os'
 import axios from 'axios'
 import {openConversationScreen} from '../../action/conversation'
 

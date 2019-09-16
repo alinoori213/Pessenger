@@ -79,7 +79,7 @@ export default class Modals extends React.Component {
           <TextField
             name='name'
             className='editTextField'
-            label='Name'
+            label='نام'
             onChange={(event) => this.handleChange(event)}
             defaultValue={this.state.name}
           />
@@ -88,15 +88,16 @@ export default class Modals extends React.Component {
           <TextField
             name='phoneNumber'
             className='editTextField'
-            label='phone Number'
+            label='شماره تلفن'
             onChange={(event) => this.handleChange(event)}
           />
           </div>
           <div className='email'>
-          <TextField
+          <TextField 
+          dir='rtl'
             name='description'
             className='editTextField'
-            label='description'
+            label='بیو'
             onChange={(event) => this.handleChange(event)}
           />
           </div>

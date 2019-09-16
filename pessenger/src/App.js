@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import Login from './component/auth/Login'
+import Grid from './component/auth/Grid'
 import Messenger from './component/conversation/Messenger'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import SignUp from './component/auth/SignUp'
@@ -18,6 +19,7 @@ export default class App extends React.Component {
         <Router>
         <Route path='/Biuld' exact component={Biuld} />
           <Route path='/' exact component={Login} />
+          <Route path='/Grid' exact component={Grid} />
           <Route path='/Profile' component={Profile} />
           <Route path='/signup/' exact component={SignUp} />
           <Route path='/messenger/' component={Messenger} />

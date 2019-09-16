@@ -16,13 +16,13 @@ class ChatScreen extends React.Component {
 	  }
   render () {
     return (
-      <div className='mainchat'>
+      
       <div className='chat-screen' >
         <HeaderContainer />
         <MessagesBoxContainer newMessage={this.state.newMessage} />
         <FooterContainer  getNewMessage={(newMessage) => this.getNewMessage(newMessage)}/>
       </div>
-      </div>
+      
     )
   }
 }

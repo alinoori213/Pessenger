@@ -18,7 +18,7 @@ class Footer extends React.Component {
     this.setState({newMessage: e.target.value})
   }
 
-  sendNewMessage(newMessage) {
+  sendNewMessage() {
     console.log('convID:::',this.props.conversationId)
     this.props.dispatch(sendNewMessage(this.state.newMessage))
     let fdata = new FormData()
@@ -39,6 +39,7 @@ class Footer extends React.Component {
   }
 
   render () {
+    console.log('gg',this.props.conversationId)
     return (
       <div className='footer' >
         
